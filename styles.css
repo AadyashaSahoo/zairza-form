@@ -1,0 +1,52 @@
+.body{
+    display: flex;
+}
+.image{
+    max-width: 50%;
+}
+#image
+{
+    max-width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.form{
+     background-color: #f8ceec;
+background-image: linear-gradient(315deg, #f8ceec 0%, #a88beb 74%); 
+/* background-color: #BEAEE2; */
+color: white;
+width: 52%;
+text-align: left;
+
+}
+.header{
+    text-align: center;
+    font-size: 2em;
+    margin: 40px;
+}
+.container{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 800;
+}
+.clearfix button{
+    background-color: purple;
+    color: white;
+}
+.header{
+    color: white;
+    background-color: #FBC7F7;
+}
+.text{
+    color: purple;
+}
+@media only screen and (max-width: 936px) {
+     
+      #image{
+          display: none;
+      }
+      .form{
+          width: 100%;
+      }
+    
+  }

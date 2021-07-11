@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap" rel="stylesheet">
+    <title>AADYASHA</title>
+    
+</head>
+<body>
+    
+       
+     <div class="container">
+     <div class="header">
+     <h1>Sign Up</h1>
+    <p class="text">Please fill in this form to create an account.</p>
+   </div>
+    <div class="body">
+        <div class="form">
+            <form action="action_page.php" style="border:1px solid #ccc"></form>
+            <Br><label for="Name"><b>Name</b></label>
+                <input type="text" placeholder="Enter Name" name="Name" required></Br>   
+                
+                <Br><label for="Contact Number"><b>Contact Number</b></label>
+                <input type="number" placeholder="Enter Contact No." name="Contact Number" required></Br>
+            
+                <Br><label for="email"><b>Email</b></label>
+                <input type="text" placeholder="Enter Email" name="email" required></Br>
+            
+                <Br><label for="psw"><b>Password</b></label>
+                <input type="password" placeholder="Enter Password" name="psw" required></Br>
+            
+                <Br><label for="psw-Confirm"><b>Confirm Password</b></label>
+                <input type="password" placeholder="Confirm Password" name="psw-Confirm" required></Br>
+            
+                <Br><input type="radio" id="Hardware" name="fav_language" value="Hardware">
+                <label for="Hardware">Hardware</label><br>
+                <input type="radio" id="Software" name="fav_language" value="Software">
+                <label for="Software">Software</label><br>
+                <input type="radio" id="Design" name="fav_language" value="Design">
+                <label for="Design">Design</label></Br>
+                
+                <Br><label for="Skill">Choose a Skill:</label>
+            
+                <select name="Skill" id="Skill">
+                  <option value="HTML">HTML</option>
+                  <option value="CSS">CSS</option>
+                  <option value="Javascript">Javascript</option>
+                </select></Br>
+            
+                <label>
+                  <input type="checkbox" checked="checked" name="remember" style="margin-bottom:15px"> Remember me
+                </label>
+            
+                <p>By creating an account you agree to our <a href="#" style="color:dodgerblue">Terms & Privacy</a>.</p>
+            
+                <div class="clearfix">
+                  
+                  <button type="submit" class="signupbtn">SUBMIT</button>
+                </div>
+              </div>
+            </form>
+            <div class="image">
+                <img id="image" src="aadya.jpg" alt="not-found">
+            </div>
+        </div>
+        
+    </div>
+
+    
+</body>
+</html>
